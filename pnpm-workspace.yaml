@@ -1,6 +1,6 @@
 packages:
-  - playground
-  - 'examples/*'
   - 'packages/*'
-  - '!**/test/**'
+  - example
   - docs
+  - playground
+  - '!**/test/**'
