@@ -1,10 +1,15 @@
 {
-  "name": "alphax-ui",
-  "version": "1.0.0",
+  "name": "@alphax-ui/monorepo",
+  "version": "0.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
+  "packageManager": "pnpm@8.7.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx only-allow pnpm",
+    "docs:dev": "npm -C docs run dev",
+    "docs:build": "npm -C docs run build",
+    "docs:preview": "npm -C docs run serve"
   },
   "keywords": [],
   "author": "",
